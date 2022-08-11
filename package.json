@@ -1,0 +1,24 @@
+{
+  "name": "node-adblock-proxy",
+  "version": "1.0.0",
+  "description": "NodeJS AdBlock Proxy\r ====================",
+  "main": "start.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemesisqp/node-adblock-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemesisqp/node-adblock-proxy/issues"
+  },
+  "homepage": "https://github.com/nemesisqp/node-adblock-proxy#readme"
+}

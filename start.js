@@ -9,6 +9,9 @@
 
 	var root = null;
 	var port = process.env.PORT || 4711;
+	var host = process.env.HOST || '127.0.0.1'
+	console.log("🚀 ~ file: start.js ~ line 13 ~ host", host);
+	console.log("🚀 ~ file: start.js ~ line 12 ~ port", port);
 	var tmp  = null;
 
 	var file = __filename.split('/');

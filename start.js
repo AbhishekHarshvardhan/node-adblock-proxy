@@ -38,11 +38,14 @@
 
 	var _Proxy = require('./lib/proxy.js');
 
+	console.log("🚀 ~ file: start.js ~ line 45 ~ root", root);
+	console.log("🚀 ~ file: start.js ~ line 49 ~ port", port);
 
 	var proxy = new _Proxy({
 		root: root
 	});
 
+	console.log("🚀 ~ file: start.js ~ line 47 ~ proxy", proxy);
 
 	proxy.listen('http',   port);
 	proxy.listen('socks5', 1080);

@@ -5115,6 +5115,7 @@
 ://synad.
 ://wrapper.*/a?
 :8080/ads/
+:4711/ads/
 ;adsense_
 ;cue=pre;$object-subrequest
 ;iframeid=ad_
@@ -16320,6 +16321,7 @@ _popunder+$popup
 @@||ads.mycricket.com/www/delivery/ajs.php?zoneid=$script,~third-party
 @@||ads.nyootv.com/crossdomain.xml$object-subrequest
 @@||ads.nyootv.com:8080/crossdomain.xml$object-subrequest
+@@||ads.nyootv.com:4711/crossdomain.xml$object-subrequest
 @@||ads.pandora.tv/netinsight/text/pandora_global/channel/icf@
 @@||ads.pointroll.com/PortalServe/?pid=$xmlhttprequest,domain=thestreet.com
 @@||ads.rubiconproject.com/ad/$script,domain=memegenerator.net|waoanime.tv
@@ -17997,8 +17999,11 @@ _popunder+$popup
 @@||moje-dzialdowo.pl/images/*.swf|$object
 @@||monsoonads.com/crossdomain.xml$object-subrequest
 @@||monsoonads.com:8080/crossdomain.xml$object-subrequest
+@@||monsoonads.com:4711/crossdomain.xml$object-subrequest
 @@||monsoonads.com:8080/monsoon1/monsoonservice?$object-subrequest,domain=bollywoodhungama.com|videos.mid-day.com
+@@||monsoonads.com:4711/monsoon1/monsoonservice?$object-subrequest,domain=bollywoodhungama.com|videos.mid-day.com
 @@||monsoonads.com:8080/monsoon1/preparead?$object-subrequest,domain=bollywoodhungama.com
+@@||monsoonads.com:4711/monsoon1/preparead?$object-subrequest,domain=bollywoodhungama.com
 @@||moon-faucet.tk/advertisement.js
 @@||mrtzcmp3.net/advertisement.js
 @@||msecnd.net/scripts/compressed.pop.lib.v2.5.js$domain=filmovizija.com

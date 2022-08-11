@@ -8,7 +8,7 @@
 	 */
 
 	var root = null;
-	var port = process.env.PORT || 8080;
+	var port = process.env.PORT || 4711;
 	var tmp  = null;
 
 	var file = __filename.split('/');
@@ -44,7 +44,7 @@
 
 
 	proxy.listen('http',   port);
-	proxy.listen('socks5', 1080);
+	proxy.listen('socks5', Number(process.env.PORT || 4711) + 1);
 
 })();
 
